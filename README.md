@@ -1,5 +1,7 @@
 # Traffic Signs Classification using ResNet50
 
+![image](https://github.com/Basel-anaya/Traffic-Signs-Classification-using-ResNet50/assets/81964452/038928e3-aa9b-4990-949a-b83cb5c7c553)
+
 This project aims to classify traffic signs using the ResNet50 deep learning model. It involves training a convolutional neural network (CNN) on a dataset of traffic sign images to learn to recognize and classify different types of traffic signs.
 
 ## Dataset
@@ -9,8 +11,6 @@ The dataset used for this project is the Traffic Signs Classification dataset, w
 The dataset can be downloaded from the following source: [Traffic Sign Classification](https://www.kaggle.com/datasets/flo2607/traffic-signs-classification)
 
 ## Model Architecture
-
-![model](https://github.com/Basel-anaya/Traffic-Signs-Classification-using-ResNet50/assets/81964452/3b38ee4f-4f24-4a51-b98f-3d0508f8a706)
 
 The ResNet50 model architecture is used for traffic sign classification. ResNet50 is a deep convolutional neural network architecture that has shown excellent performance on a wide range of computer vision tasks. It consists of 50 layers, including residual blocks, which help in training deeper networks and mitigating the vanishing gradient problem.
 
@@ -34,17 +34,19 @@ pip install tensorflow keras numpy matplotlib
 
 1. Clone the repository:
 
+```bash
 git clone https://github.com/Basel-anaya/Traffic-Signs-Classification-using-ResNet50.git
+```
 
 2. Download the dataset and extract it into a directory named `dataset`.
 
-3. Open the `traffic-signs-classifications-using-resnet50.ipynb` file and set the desired hyperparameters, such as batch size, number of epochs, and learning rate.
+3. Open the `traffic-signs-classifications-using-resnet50.ipynb` file and set the desired hyperparameters, such as `batch size`, `number of epochs`, and `learning rate`.
 
 4. Run the code cells
 
 5. After training, the model will be saved as `ResNet_model.h5`.
 
-6. To evaluate the model on the test set, run this script:
+6. To evaluate the model on the `test set`, run this script:
 ```python
 # Predict on the test set
 y_pred = model.predict(X_test)
@@ -64,9 +66,9 @@ plt.show()
 
 ## Results
 
-The results achieved by the trained ResNet50 model on the test set are as follows:
+The results achieved by the trained `ResNet50 model` on the test set are as follows:
 
-- Test accuracy: 99.2%
+- Test accuracy: `99.2%`
 
 ### Some plots
 
