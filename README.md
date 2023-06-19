@@ -10,6 +10,8 @@ The dataset can be downloaded from the following source: [Traffic Sign Classific
 
 ## Model Architecture
 
+![model](https://github.com/Basel-anaya/Traffic-Signs-Classification-using-ResNet50/assets/81964452/3b38ee4f-4f24-4a51-b98f-3d0508f8a706)
+
 The ResNet50 model architecture is used for traffic sign classification. ResNet50 is a deep convolutional neural network architecture that has shown excellent performance on a wide range of computer vision tasks. It consists of 50 layers, including residual blocks, which help in training deeper networks and mitigating the vanishing gradient problem.
 
 ## Dependencies
@@ -65,6 +67,21 @@ plt.show()
 The results achieved by the trained ResNet50 model on the test set are as follows:
 
 - Test accuracy: 99.2%
+
+### Some plots
+
+#### Training plot
+![line_Training_plot](https://github.com/Basel-anaya/Traffic-Signs-Classification-using-ResNet50/assets/81964452/242a13b4-c71f-45eb-a3b0-303b1cab46e9)
+
+#### Accuracy Plot
+![line_Accuracy_plot](https://github.com/Basel-anaya/Traffic-Signs-Classification-using-ResNet50/assets/81964452/9ee9a229-bd12-4050-83d7-490a682540b4)
+
+#### Loss Plot
+![line_Loss_plot](https://github.com/Basel-anaya/Traffic-Signs-Classification-using-ResNet50/assets/81964452/9b26fec2-79a1-4b76-a588-c8dc908a9ce6)
+
+#### Confusion Matrix
+![cm_plot](https://github.com/Basel-anaya/Traffic-Signs-Classification-using-ResNet50/assets/81964452/de85ba19-4d0c-4cd2-82c5-5720d7a51a24)
+
 
 ## License
 
